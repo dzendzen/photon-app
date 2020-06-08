@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+header h2 {
+  color: rgb(32, 56, 56);
+  padding: 2rem;
+  font-size: 3rem;
+}
+#logo {
+  text-decoration: none;
+}
+.search-form {
+  padding: 2rem;
+  display: flex;
+}
+.search-form input {
+  padding: 0.5rem;
+  font-size: 2rem;
+  width: 100%;
+  border: none;
+  border: 2px solid rgb(33, 110, 110);
+  border-radius: 5px;
+}
+.search-form button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: rgb(33, 110, 110);
+  color: white;
+  cursor: pointer;
+}
