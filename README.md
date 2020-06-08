@@ -1,3 +1,3 @@
 # photon-app
-##### https://developpedbyed.com JS tutorial
+##### JS tutorial  https://developpedbyed.com 
 ##### using pexels api (https://www.pexels.com/api)
