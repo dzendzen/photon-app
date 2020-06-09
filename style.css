@@ -14,12 +14,13 @@ header {
   align-items: center;
 }
 header h2 {
-  color: rgb(32, 56, 56);
   padding: 2rem;
   font-size: 3rem;
 }
 #logo {
   text-decoration: none;
+  color: rgb(32, 56, 56);
+  font-weight: bold;
 }
 .search-form {
   padding: 2rem;
@@ -39,5 +40,43 @@ header h2 {
   font-size: 1rem;
   background: rgb(33, 110, 110);
   color: white;
+  cursor: pointer;
+}
+.gallery {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 2rem 0;
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+.gallery-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(32, 56, 56);
+  padding: 0.5rem 0;
+}
+.gallery-info a {
+  color: rgb(32, 56, 56);
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav-btn {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-btn button {
+  border: none;
+  background: rgb(32, 56, 56);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
